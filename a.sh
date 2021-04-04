@@ -1,3 +1,4 @@
+#!/bin/sh
 mkswap /dev/sda7
 swapon /dev/sda7
 mkfs.ext4 /dev/sda6

@@ -1,3 +1,4 @@
+#!/bin/sh
 git clone https://aur.archlinux.org/paru.git tempparu
 cd tempparu
 makepkg -si
