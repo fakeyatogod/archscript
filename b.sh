@@ -25,7 +25,6 @@ grub-mkconfig -o /boot/grub/grub.cfg
 pacman -S networkmanager
 systemctl enable NetworkManager
 
-pacman -S pacman-contrib
+pacman -S reflector
 cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
-sed -i 's/^#Server/Server/' /etc/pacman.d/mirrorlist.backup
-rankmirrors -n 6 /etc/pacman.d/mirrorlist.backup > /etc/pacman.d/mirrorlist
+reflector --verbose --country India --sort rate --save /etc/pacman.d/mirrorlist
