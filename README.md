@@ -19,3 +19,9 @@ exit
 umount -R /mnt
 
 reboot
+
+#Additional Script for me
+
+curl -L https://raw.githubusercontent.com/fakeyatogod/archscript/main/additional.sh > additional.sh
+
+sh additional.sh
