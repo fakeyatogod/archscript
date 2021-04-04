@@ -1,4 +1,5 @@
 ln -sf /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
+hwclock --systohc
 
 pacman -S nano
 nano /etc/locale.gen
