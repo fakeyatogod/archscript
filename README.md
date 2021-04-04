@@ -1,5 +1,21 @@
-# archscript
-made from phone nuked networkmanager from laptop accidentally
+### archscript
 
-Run:
-    curl -L https://raw.githubusercontent.com/fakeyatogod/archscript/main/fast.sh > fash.sh
+***DUMB SCRIPT for personal use only.***
+
+
+## Run:
+
+```
+curl -L https://raw.githubusercontent.com/fakeyatogod/archscript/main/a.sh > a.sh
+
+sh a.sh
+
+#After chroot
+
+sh b.sh
+
+exit
+
+umount -R /mnt
+
+reboot
