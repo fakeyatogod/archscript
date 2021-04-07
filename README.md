@@ -1,9 +1,12 @@
-### archscript
+## archscript
 
 ***DUMB SCRIPT for personal use only.***
 
+# FOR PERSONAL USE ONLY
+## DONT RUN ON YOUR PC
+### FORK AND DO WHATEVER U WANT
 
-## Run:
+### Run:
 
 ```
 curl -L https://raw.githubusercontent.com/fakeyatogod/archscript/main/a.sh > a.sh
