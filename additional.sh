@@ -5,7 +5,7 @@ makepkg -si
 cd ..
 rm -rf tempparu
 
-paru -S google-chrome ttf-google-fonts-git noto-fonts-cjk
+paru -S google-chrome noto-fonts-cjk
 
 curl -L https://raw.githubusercontent.com/akhilnarang/scripts/master/setup/arch-manjaro.sh > arch-manjaro.sh 
 
